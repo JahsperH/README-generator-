@@ -28,6 +28,8 @@ function generateMarkdown(data) {
   ${data.description}
   ## Installation
   ${data.installation}
+  ## Usage
+  ${data.usage}
   ## License
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
@@ -36,11 +38,9 @@ function generateMarkdown(data) {
   ${data.contributing}
   ## Tests
   ${data.tests}
-  ## GitHub
-  ${data.github}
-  GitHub: https://github.com/${data.github}
-  ## Email
+  ## Questions
   Email: ${data.email}
+  GitHub: https://github.com/${data.github}
 `;
 }
 
