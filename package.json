@@ -16,7 +16,7 @@
     "url": "https://github.com/JahsperH/README-generator-/issues"
   },
   "homepage": "https://github.com/JahsperH/README-generator-#readme",
-  "devDependencies": {
-    "inquirer": "^9.2.2"
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
